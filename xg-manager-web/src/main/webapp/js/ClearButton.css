@@ -1,0 +1,23 @@
+﻿/* 必须将此CSS样式放置到Bootstrap样式之后否则会被覆盖 */
+/* chenjun 2017-10-12 */
+.input-text-clearbtn {
+	display: none;
+	position: relative;
+	cursor: pointer;
+}
+
+.input_250 {
+	vertical-align: middle;
+}
+
+.input-text-clearbtn:hover {
+	color: #808080;
+}
+
+input[type=text]::-ms-clear { /* 清除IE的combo 文本框后面的 x  */
+	display: none;
+}
+
+input[type=text].form-control {
+	padding: 6px 28px 6px 12px;
+}
